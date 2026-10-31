@@ -1,0 +1,30 @@
+# Virtual environments
+venv/
+.venv/
+
+# Python bytecode and caches
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment files
+.env
+.env.*
+!.env.example
+*.env
+
+# Logs
+logs/
+*.log
+
+# Temporary and editor files
+*.tmp
+*.temp
+*.swp
+*.swo
+~$*
+.DS_Store
+Thumbs.db
